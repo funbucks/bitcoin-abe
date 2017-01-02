@@ -22,5 +22,5 @@ class Bitcoin(Sha256Chain):
         chain.code3 = 'BTC'
         chain.address_version = '\x00'
         chain.script_addr_vers = '\x05'
-        chain.magic = '\xda\xe3\xc7\xd0'
+        chain.magic = '\xf9\xbe\xb4\xd9'
         Sha256Chain.__init__(chain, **kwargs)
